@@ -1,0 +1,76 @@
+/* LogIn.css */
+
+.sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: #b83030; */
+    background-image: url('../img/istockphoto-1358248646-612x612.jpg');
+    background-repeat: no-repeat;
+    animation: changeBackground 10s infinite; /* 10s total duration, infinite loop */
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  @keyframes changeBackground {
+    0% {
+      background-image: url('../img/Learning-Licence-Uttar-Pradesh.jpeg');
+    }
+    50% {
+      background-image: url('../img/Blog_Paytm_Learning-Licence-Maharashtra-Steps-to-Apply-for-LL-Online-800x500.jpg');
+    }
+    100% {
+      background-image: url('../img/Blog_Paytm_Driving-Licence-Test-Questions.jpg');
+    }
+  }
+  
+  .login-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .register-form {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .form-group {
+    position: relative;
+  }
+  
+  label i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-submit {
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .form-submit:hover {
+    background: #0056b3;
+  }
+  

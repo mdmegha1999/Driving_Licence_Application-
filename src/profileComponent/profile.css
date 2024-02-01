@@ -1,0 +1,59 @@
+.profile-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .welcome-message {
+    color: #007bff;
+  }
+  
+  .user-info {
+    margin-bottom: 10px;
+  }
+  
+  .logout-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .profile-form {
+    margin-top: 10px;
+  }
+  
+  .exam-button {
+    margin-top: 20px;
+  }
+  .congrats-message {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4caf50;
+  }
+  .imp-pra{
+    background-color: #282c34;
+    padding: 40px;
+    color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  .next_button {
+    background-color: #61dafb;
+    color: white;
+    font-size: 1em;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+  }
+  .next_button:hover {
+    background-color: #4fa3d1;
+  }
