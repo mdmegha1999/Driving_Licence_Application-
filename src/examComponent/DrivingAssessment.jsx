@@ -5,19 +5,19 @@ const DrivingAssessment = () => {
   const questions =[
   {
     id: 1,
-    question: 'What should you do at a stop sign?',
+    text: 'What should you do at a stop sign?',
     options: ['Stop and proceed if clear', 'Slow down and proceed', 'Ignore the sign', 'Speed up'],
     correctAnswer: 'Stop and proceed if clear',
   },
   {
     id: 2,
-    question: 'What does a yellow traffic light indicate?',
+    text: 'What does a yellow traffic light indicate?',
     options: ['Stop', 'Slow down', 'Proceed with caution', 'Speed up'],
     correctAnswer: 'Proceed with caution',
   },
   {
     id: 3,
-    question: 'When should you use your headlights?',
+    text: 'When should you use your headlights?',
     options: [
       'Only at night',
       'During bad weather conditions',
@@ -28,7 +28,7 @@ const DrivingAssessment = () => {
   },
   {
     id: 4,
-    question: 'What is the purpose of a white rectangular sign with black lettering?',
+    text: 'What is the purpose of a white rectangular sign with black lettering?',
     options: [
       'Regulatory instruction',
       'Warning about hazards or possible changes in conditions',
@@ -39,7 +39,7 @@ const DrivingAssessment = () => {
   },
   {
     id: 5,
-    question: 'What does a double yellow line in the center of the road indicate?',
+    text: 'What does a double yellow line in the center of the road indicate?',
     options: [
       'Passing is allowed if done safely',
       'No passing from either side',
@@ -50,7 +50,7 @@ const DrivingAssessment = () => {
   },
   {
     id: 6,
-    question: 'What is the proper way to make a right turn at a red traffic light?',
+    text: 'What is the proper way to make a right turn at a red traffic light?',
     options: [
       'Come to a complete stop, yield to pedestrians and other traffic, then turn right',
       'Slow down and proceed without stopping',
@@ -61,13 +61,13 @@ const DrivingAssessment = () => {
   },
   {
     id: 7,
-    question: 'What is the legal blood alcohol concentration (BAC) limit for drivers in most states?',
+    text: 'What is the legal blood alcohol concentration (BAC) limit for drivers in most states?',
     options: ['0.08%', '0.05%', '0.10%', '0.15%'],
     correctAnswer: '0.08%',
   },
   {
     id: 8,
-    question: 'When approaching a school bus with flashing red lights and an extended stop sign, what should you do?',
+    text: 'When approaching a school bus with flashing red lights and an extended stop sign, what should you do?',
     options: [
       'Slow down and proceed with caution',
       'Stop until the bus continues moving or the driver signals you to pass',
@@ -78,7 +78,7 @@ const DrivingAssessment = () => {
   },
   {
     id: 9,
-    question: 'What should you do if you miss your exit on the freeway?',
+    text: 'What should you do if you miss your exit on the freeway?',
     options: [
       'Continue to the next exit and find an alternative route',
       'Back up on the freeway to the missed exit',
@@ -89,7 +89,7 @@ const DrivingAssessment = () => {
   },
   {
     id: 10,
-    question: 'What is the purpose of a white diamond-shaped sign with black symbols?',
+    text: 'What is the purpose of a white diamond-shaped sign with black symbols?',
     options: [
       'Indicates an upcoming construction zone',
       'Warns of a school zone',
@@ -100,13 +100,13 @@ const DrivingAssessment = () => {
   },
   {
     id: 11,
-    question: 'When parallel parking, how far should your vehicle be from the curb?',
+    text: 'When parallel parking, how far should your vehicle be from the curb?',
     options: ['No specific distance', 'Within 12 inches', 'Within 24 inches', 'Within 36 inches'],
     correctAnswer: 'Within 12 inches',
   },
   {
     id: 12,
-    question: 'What does a green arrow signal indicate?',
+    text: 'What does a green arrow signal indicate?',
     options: [
       'Proceed with caution in the direction of the arrow',
       'Stop and wait for a green light',
@@ -117,7 +117,7 @@ const DrivingAssessment = () => {
   },
   {
     id: 13,
-    question: 'What should you do if your vehicle starts to skid?',
+    text: 'What should you do if your vehicle starts to skid?',
     options: [
       'Steer in the direction you want to go',
       'Brake as hard as possible',
@@ -128,7 +128,7 @@ const DrivingAssessment = () => {
   },
   {
     id: 14,
-    question: 'When is it legal to use a cell phone while driving?',
+    text: 'When is it legal to use a cell phone while driving?',
     options: [
       'Anytime, as long as you can multitask',
       'Only if using a hands-free device',
@@ -139,7 +139,7 @@ const DrivingAssessment = () => {
   },
   {
     id: 15,
-    question: 'What is the purpose of a round yellow sign with a black symbol?',
+    text: 'What is the purpose of a round yellow sign with a black symbol?',
     options: [
       'Indicates a stop sign ahead',
       'Warns of a railroad crossing',
@@ -150,7 +150,7 @@ const DrivingAssessment = () => {
   },
   {
     id: 16,
-    question: 'What should you do if you encounter a funeral procession while driving?',
+    text: 'What should you do if you encounter a funeral procession while driving?',
     options: [
       'Honk and proceed without stopping',
       'Yield the right-of-way and follow the lead vehicle',
@@ -161,7 +161,7 @@ const DrivingAssessment = () => {
   },
   {
     id: 17,
-    question: 'When can you make a U-turn on a divided highway?',
+    text: 'When can you make a U-turn on a divided highway?',
     options: [
       'Only at designated U-turn locations',
       'Anytime if no other vehicles are present',
@@ -172,7 +172,7 @@ const DrivingAssessment = () => {
   },
   {
     id: 18,
-    question: 'What does a solid yellow line on your side of the center line indicate?',
+    text: 'What does a solid yellow line on your side of the center line indicate?',
     options: [
       'You can pass if the way ahead is clear',
       'No passing from either side',
@@ -183,13 +183,13 @@ const DrivingAssessment = () => {
   },
   {
     id: 19,
-    question: 'What does a red octagonal sign with white letters spell out?',
+    text: 'What does a red octagonal sign with white letters spell out?',
     options: ['Stop', 'Yield', 'Caution', 'Speed Limit'],
     correctAnswer: 'Stop',
   },
   {
     id: 20,
-    question: 'How can you reduce the risk of a collision?',
+    text: 'How can you reduce the risk of a collision?',
     options: [
       'Tailgating the vehicle in front of you',
       'Using your phone while driving',
